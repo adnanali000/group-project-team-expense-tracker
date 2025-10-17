@@ -1,10 +1,4 @@
- let appData = {
-  members: [],
-  expenses: [],
-  nextExpenseId: 1
-};
-
-function saveData(){
+ function saveData(){
     localStorage.setItem("teamData", JSON.stringify(appData))
     console.log("✅ Data saved to localStorage.");
 }
