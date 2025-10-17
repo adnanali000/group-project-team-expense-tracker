@@ -8,7 +8,7 @@ function loadData(){
     const storedData = localStorage.getItem("teamData")
     if(storedData){
         appData = JSON.parse(storedData)
-        console.log("✅ Data Loaded From LocalStorage")
+        console.log("✅ Data Loaded From LocalStorage")     
     }
     else{
         console.log("ℹ️ No Saved Data Found")
